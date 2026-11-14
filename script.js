@@ -119,10 +119,26 @@ async function result(){
  $("quiz").classList.add("hidden");$("result").classList.remove("hidden");$("retryMessage").classList.remove("hidden");renderResultData(n,rank,tag);
 }
 function share(){
- const n=answers.filter(a=>a.choice.correct).length,[r]=level(n);
- const shareUrl=`${location.origin}/${encodeURIComponent(currentUser)}`;
- const text=`@${currentUser} scored ${n}/10 on the “How Much Do You Know About ITIA?” challenge. ${r}! 🎨❤️\n\nBe genuine. There is no retry, just share what you have got.\n\nThink you know ITIA? Take the quiz:`;
- window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent(shareUrl),"_blank","noopener,noreferrer");
+  const n = answers.filter(a => a.choice.correct).length;
+  const [rank] = level(n);
+
+  const shareUrl = `https://itia-challenge.netlify.app/${encodeURIComponent(currentUser)}`;
+
+  const post = `I participated in the “How Much Do You Know About ITIA?” challenge and scored ${n}/10.
+
+${rank}! 🎨❤️
+
+You know the story, the details, and the feeling. ITIA is home.
+
+Be genuine. There is no retry, just share what you have got.
+
+Think you know ITIA? @IThinkItsArt
+Take the quiz:
+${shareUrl}`;
+
+  const intentUrl = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(post);
+
+  window.open(intentUrl, "_blank", "noopener,noreferrer");
 }
 function roundedImage(ctx,img,x,y,w,h){ctx.save();ctx.beginPath();ctx.arc(x+w/2,y+h/2,w/2,0,Math.PI*2);ctx.clip();ctx.drawImage(img,x,y,w,h);ctx.restore()}
 function cardCanvas(){
