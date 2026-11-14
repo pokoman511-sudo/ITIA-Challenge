@@ -160,6 +160,7 @@ function cardCanvas(){
 function wrapCanvasText(ctx,text,x,y,maxWidth,lineHeight,maxLines=2){const words=String(text).split(/\s+/);let line="",lines=[];for(const word of words){const test=line?line+" "+word:word;if(ctx.measureText(test).width>maxWidth&&line){lines.push(line);line=word}else line=test}if(line)lines.push(line);lines.slice(0,maxLines).forEach((v,i)=>ctx.fillText(v,x,y+i*lineHeight));}
 
 $("start").disabled=true;$("start").onclick=begin;$("xUsername").addEventListener("keydown",e=>{if(e.key==="Enter"&&!$("start").disabled)begin()});$("next").onclick=next;$("share").onclick=share;
+
 $("download").onclick = async () => {
   const btn = $("download");
   const oldText = btn.textContent;
@@ -168,17 +169,14 @@ $("download").onclick = async () => {
   btn.textContent = "Preparing card…";
 
   try {
-    // Wait briefly for the X profile picture.
-    // The fallback avatar is used if the real image doesn't load.
     await waitForAvatar();
 
     const canvas = cardCanvas();
 
-    // Convert canvas into a real PNG file.
     const blob = await new Promise((resolve, reject) => {
-      canvas.toBlob(blob => {
-        if (blob) resolve(blob);
-        else reject(new Error("Could not generate the score card."));
+      canvas.toBlob(result => {
+        if (result) resolve(result);
+        else reject(new Error("PNG generation failed."));
       }, "image/png");
     });
 
@@ -188,37 +186,41 @@ $("download").onclick = async () => {
       { type: "image/png" }
     );
 
-    // Mobile: open the native share sheet with the PNG attached.
+    const isAndroid = /Android/i.test(navigator.userAgent);
+    const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    // iPhone and iPad: use native share sheet.
     if (
+      isIOS &&
       navigator.share &&
       navigator.canShare &&
       navigator.canShare({ files: [file] })
     ) {
       await navigator.share({
         files: [file],
-        title: "My ITIA Challenge Result",
-        text: "My ITIA Challenge score!"
+        title: "My ITIA Challenge Result"
       });
+
     } else {
-      // Desktop and browsers supporting normal file downloads.
+      // Android and desktop: download directly.
       const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
+      const link = document.createElement("a");
 
-      a.href = url;
-      a.download = "itia-knowledge-score.png";
-      a.style.display = "none";
+      link.href = url;
+      link.download = "itia-knowledge-score.png";
+      link.style.display = "none";
 
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
 
       setTimeout(() => URL.revokeObjectURL(url), 60000);
     }
 
   } catch (error) {
     if (error.name !== "AbortError") {
-      console.error("Card export error:", error);
-      alert("Could not save your card. Please try again or use another browser.");
+      console.error("Download error:", error);
+      alert("Unable to download the score card. Please try again.");
     }
   } finally {
     btn.disabled = false;
