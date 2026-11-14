@@ -1,6 +1,6 @@
 const $=id=>document.getElementById(id);
 let bank=[],round=[],idx=0,answers=[],chosen=null,currentUser="",avatarUrl="",avatarReady=false,avatarImage=null;
-const API_URL="PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const API_URL="https://script.google.com/macros/s/AKfycbzolvzImrwig64NU4DFfaoNBEVS3VfsMQozVviMxjs8JnQZ05VV3D-U1_VQYKyHyicelg/exec";
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
 function cleanHandle(v){return v.trim().replace(/^@+/,"").toLowerCase()}
 function validHandle(v){return /^[a-z0-9_]{1,15}$/.test(v)}
