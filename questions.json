@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "type": "factual",
+    "category": "Origins",
+    "q": "When did Iv and Pe bring ITIA to life?",
+    "options": [
+      "Late 2023",
+      "May 2025",
+      "Early 2026",
+      "Early 2024"
+    ],
+    "answer": 3,
+    "explanation": "The Family page says early 2024."
+  },
+  {
+    "id": 2,
+    "type": "factual",
+    "category": "Origins",
+    "q": "How does ITIA describe the relationship between Iv and Pe?",
+    "options": [
+      "Friends for over 25 years and sisters at heart",
+      "Business partners who met in 2024",
+      "Sisters who founded an art studio",
+      "Artists who first met in 2025"
+    ],
+    "answer": 0,
+    "explanation": "The Family page describes them as friends for more than 25 years and sisters at heart."
+  },
+  {
+    "id": 3,
+    "type": "factual",
+    "category": "Origins",
+    "q": "Who are ITIA's founders?",
+    "options": [
+      "Pe and Brongis",
+      "Iv and Pe",
+      "Alpha and Ares",
+      "Iv and Alpha"
+    ],
+    "answer": 1,
+    "explanation": "The official Family page identifies Iv and Pe."
+  },
+  {
+    "id": 4,
+    "type": "factual",
+    "category": "Origins",
+    "q": "What does ITIA stand for?",
+    "options": [
+      "Inside The Infinite Art",
+      "I Trust In Art",
+      "I Think It's Art",
+      "Ideas That Inspire Artists"
+    ],
+    "answer": 2,
+    "explanation": "ITIA is the abbreviation of I Think It's Art."
+  },
+  {
+    "id": 5,
+    "type": "factual",
+    "category": "Origins",
+    "q": "Since when has ITIA been an official German GmbH?",
+    "options": [
+      "January 2024",
+      "October 2025",
+      "August 2026",
+      "May 2026"
+    ],
+    "answer": 3,
+    "explanation": "The Family page states May 2026."
+  },
+  {
+    "id": 6,
+    "type": "factual",
+    "category": "Origins",
+    "q": "Which phrase appears as the welcome line on ITIA's Family page?",
+    "options": [
+      "Where art feels like home",
+      "Art belongs to everyone",
+      "Own the future of art",
+      "A new world of collectibles"
+    ],
+    "answer": 0,
+    "explanation": "The page uses “Where art feels like home.”"
+  },
+  {
+    "id": 7,
+    "type": "factual",
+    "category": "Collections",
+    "q": "How is the ITIA Family collection described?",
+    "options": [
+      "A collection of game characters",
+      "A private, ultra-exclusive collection of handcrafted PFPs",
+      "An open edition of generative landscapes",
+      "A public art-trading marketplace"
+    ],
+    "answer": 1,
+    "explanation": "The Art page describes it as a private, ultra-exclusive collection of handcrafted PFPs."
+  },
+  {
+    "id": 8,
+    "type": "factual",
+    "category": "Collections",
+    "q": "Who was the ITIA Family collection created for?",
+    "options": [
+      "Only artists selected through auctions",
+      "All holders of Ethereum NFTs",
+      "The founders and their inner circle",
+      "Every wallet connected to ITIAverse"
+    ],
+    "answer": 2,
+    "explanation": "The Art page says founders and their inner circle."
+  },
+  {
+    "id": 9,
+    "type": "factual",
+    "category": "Collections",
+    "q": "On which blockchain does the ITIA Family collection say it is minted?",
+    "options": [
+      "Solana",
+      "Polygon",
+      "Base",
+      "Ethereum"
+    ],
+    "answer": 3,
+    "explanation": "The Art page says Ethereum."
+  },
+  {
+    "id": 10,
+    "type": "factual",
+    "category": "Collections",
+    "q": "How is each ITIA Family PFP customized?",
+    "options": [
+      "To each member's personal vision, story, and wishes",
+      "With one identical template",
+      "By random traits only",
+      "By weekly community voting"
+    ],
+    "answer": 0,
+    "explanation": "Each piece is individually customized."
+  },
+  {
+    "id": 11,
+    "type": "factual",
+    "category": "Art",
+    "q": "Who creates the artworks featured in the official Gallery?",
+    "options": [
+      "Anonymous marketplace traders",
+      "Artists from the ITIA family",
+      "Only the two founders",
+      "One contracted design agency"
+    ],
+    "answer": 1,
+    "explanation": "The Gallery says each piece is created by an artist from the family."
+  },
+  {
+    "id": 12,
+    "type": "factual",
+    "category": "Art",
+    "q": "Which artistic approaches does the Gallery explicitly mention?",
+    "options": [
+      "Only generative AI art",
+      "Only pixel art and photography",
+      "Traditional and digital, handmade and modern",
+      "Only oil painting and sculpture"
+    ],
+    "answer": 2,
+    "explanation": "The Gallery mentions traditional and digital, handmade and modern."
+  },
+  {
+    "id": 13,
+    "type": "factual",
+    "category": "Art",
+    "q": "According to the Gallery, whose heart remains in each artwork?",
+    "options": [
+      "The marketplace",
+      "The first collector to view it",
+      "The hosting platform",
+      "The artist who made it"
+    ],
+    "answer": 3,
+    "explanation": "The Gallery says the heart of each work stays with its artist."
+  },
+  {
+    "id": 14,
+    "type": "analytical",
+    "category": "Genesis",
+    "q": "A person reads the Genesis section's line “I Think It's Art. I Think It's Time.” What is the safest interpretation without assuming unannounced perks?",
+    "options": [
+      "It guarantees financial returns at launch",
+      "It confirms every visitor receives a free NFT",
+      "It announces a fixed mint date",
+      "It signals the project's Genesis moment and creative identity"
+    ],
+    "answer": 3,
+    "explanation": "The official Gallery pairs the phrase with “Genesis is coming”; it does not state a guaranteed return, universal mint, or fixed date."
+  },
+  {
+    "id": 15,
+    "type": "factual",
+    "category": "Genesis",
+    "q": "Which line appears alongside the ITIA Genesis section?",
+    "options": [
+      "One chain, one collection, one future.",
+      "I Think It's Art. I Think It's Time.",
+      "The future is already minted.",
+      "Art without boundaries, tokens without limits."
+    ],
+    "answer": 1,
+    "explanation": "The Gallery uses this line and says Genesis is coming."
+  },
+  {
+    "id": 16,
+    "type": "factual",
+    "category": "Community",
+    "q": "What does the official Community page present?",
+    "options": [
+      "A blockchain validator directory",
+      "A paid art auction calendar",
+      "A gallery of the community's creations",
+      "A trading-volume leaderboard"
+    ],
+    "answer": 2,
+    "explanation": "The page calls itself a gallery of community creations."
+  },
+  {
+    "id": 17,
+    "type": "analytical",
+    "category": "Community",
+    "q": "A community member contributes a painting in a style unlike the others. Which response best fits the Community page?",
+    "options": [
+      "The artist must first own a Family PFP",
+      "Their distinct voice can add to the shared community story",
+      "The work should be rejected for not matching one house style",
+      "Only founder-approved styles belong in the gallery"
+    ],
+    "answer": 1,
+    "explanation": "The Community page values each person's voice, story, and imagination."
+  },
+  {
+    "id": 18,
+    "type": "factual",
+    "category": "Community",
+    "q": "What does “ITIA isn't painted for you. It's painted with you” communicate?",
+    "options": [
+      "The community helps shape the shared canvas",
+      "Only founders may create art",
+      "The gallery is closed to new artists",
+      "Art must be finished before people join"
+    ],
+    "answer": 0,
+    "explanation": "The page frames ITIA as a shared, community-shaped canvas."
+  },
+  {
+    "id": 19,
+    "type": "factual",
+    "category": "ITIAverse",
+    "q": "What are ITIA Points under the October 2026 Terms?",
+    "options": [
+      "A guaranteed cash balance",
+      "Virtual, non-monetary loyalty units",
+      "A cryptocurrency traded on exchanges",
+      "Transferable blockchain tokens"
+    ],
+    "answer": 1,
+    "explanation": "The Terms define Points as virtual, non-monetary loyalty units."
+  },
+  {
+    "id": 20,
+    "type": "factual",
+    "category": "ITIAverse",
+    "q": "Can ITIA Points be bought, sold, traded, or paid out as money?",
+    "options": [
+      "Yes, only while staking",
+      "Only Genesis holders can trade them",
+      "No",
+      "Yes, after connecting a wallet"
+    ],
+    "answer": 2,
+    "explanation": "The Terms prohibit purchase, sale, trading, transfer, and cash payout."
+  },
+  {
+    "id": 21,
+    "type": "factual",
+    "category": "ITIAverse",
+    "q": "Which login methods are listed for ITIAverse access?",
+    "options": [
+      "Google only",
+      "WalletConnect only",
+      "An NFT and phone number",
+      "A wallet, an X account, or an email address"
+    ],
+    "answer": 3,
+    "explanation": "The Terms list wallet, X, or email."
+  },
+  {
+    "id": 22,
+    "type": "factual",
+    "category": "ITIAverse",
+    "q": "How are whitelist applications reviewed under the Terms?",
+    "options": [
+      "Carefully and manually by the ITIA team",
+      "Automatically by wallet age",
+      "By public token-holder vote",
+      "First come, first served without review"
+    ],
+    "answer": 0,
+    "explanation": "The Terms say applications are carefully and manually reviewed."
+  },
+  {
+    "id": 23,
+    "type": "analytical",
+    "category": "ITIAverse",
+    "q": "A member stakes an NFT through the ITIAverse and worries ITIA has taken custody of it. What does the Terms' soft-staking description imply?",
+    "options": [
+      "The NFT is sent to a marketplace escrow",
+      "The NFT stays in the member's wallet while linked for staking",
+      "The NFT is transferred to ITIA until unstaking",
+      "The NFT is sold and replaced by points"
+    ],
+    "answer": 1,
+    "explanation": "The Terms describe soft staking: the NFT remains in the member's wallet."
+  },
+  {
+    "id": 24,
+    "type": "analytical",
+    "category": "ITIAverse",
+    "q": "A member wants their Passport hidden from public view. What does the Terms say about the default setting?",
+    "options": [
+      "The Passport is public as soon as an account is created",
+      "Only wallet holders can hide it",
+      "The Passport is visible to all ITIAverse members by default",
+      "The Passport is private unless the member chooses to publish it"
+    ],
+    "answer": 3,
+    "explanation": "The Terms say the Passport is private by default and members decide whether to publish it."
+  },
+  {
+    "id": 25,
+    "type": "factual",
+    "category": "ITIAverse",
+    "q": "What is the default visibility of an ITIAverse Passport?",
+    "options": [
+      "Public",
+      "Visible only to NFT holders",
+      "Visible only to founders",
+      "Private"
+    ],
+    "answer": 3,
+    "explanation": "The Terms say the Passport is private by default."
+  },
+  {
+    "id": 26,
+    "type": "factual",
+    "category": "Codex",
+    "q": "Does owning an ITIA NFT automatically transfer copyright in its artwork?",
+    "options": [
+      "No, copyright and other IP rights are not transferred",
+      "Yes, all copyright transfers",
+      "Yes, but only for commercial use",
+      "Only for Ethereum NFTs"
+    ],
+    "answer": 0,
+    "explanation": "The Codex says NFT ownership does not transfer copyright or other IP rights."
+  },
+  {
+    "id": 27,
+    "type": "factual",
+    "category": "Codex",
+    "q": "What annual gross-revenue threshold is stated for the standard commercial-use license?",
+    "options": [
+      "USD 250,000",
+      "USD 50,000",
+      "USD 10,000",
+      "USD 100,000"
+    ],
+    "answer": 1,
+    "explanation": "The Codex sets a USD 50,000 annual gross-revenue limit; above it requires prior written consent."
+  },
+  {
+    "id": 28,
+    "type": "analytical",
+    "category": "Philosophy",
+    "q": "A new member says they don't create art, so they cannot belong at ITIA. Which response best matches ITIA's message?",
+    "options": [
+      "Membership requires a Family PFP",
+      "People must prove artistic skill first",
+      "Belonging is open to people who connect with the art and community",
+      "Only artists can join the family"
+    ],
+    "answer": 2,
+    "explanation": "ITIA's mission emphasizes openness, connection, and belonging, not a requirement to be an artist."
+  },
+  {
+    "id": 29,
+    "type": "analytical",
+    "category": "Art",
+    "q": "Two artists use very different styles. What does the Gallery's description suggest?",
+    "options": [
+      "One style should replace the other",
+      "Only digital work fits ITIA",
+      "Different styles mean they cannot share a community",
+      "Different techniques and stories can coexist within one family"
+    ],
+    "answer": 3,
+    "explanation": "The Gallery celebrates varied techniques and individual stories within one family."
+  },
+  {
+    "id": 30,
+    "type": "analytical",
+    "category": "Codex",
+    "q": "A collector claims the NFT makes them the artwork's author. Which interpretation matches the Codex?",
+    "options": [
+      "The artist remains the author; the owner receives only the license rights stated in the Codex",
+      "The NFT holder becomes the artist",
+      "Ownership grants unrestricted copyright",
+      "Authorship transfers on resale"
+    ],
+    "answer": 0,
+    "explanation": "The Codex says artists remain authors and owners receive only expressly granted license rights."
+  }
+]

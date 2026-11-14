@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/og/:username.png"
+  to = "/.netlify/functions/og-card/:username"
+  status = 200
+
+[[redirects]]
+  from = "/:username"
+  to = "/.netlify/functions/share-page?username=:username"
+  status = 200
